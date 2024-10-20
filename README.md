@@ -1,4 +1,3 @@
-___
 # GitHub Actions Demo: Running **Super-Linter** from the Marketplace
 
 Welcome to this demo where we showcase how to automate code quality checks using **Super-Linter**, a powerful GitHub Action that analyzes source code and reports issues as console output and status checks.
@@ -9,7 +8,6 @@ Welcome to this demo where we showcase how to automate code quality checks using
 
 In this example, the linter is triggered whenever code is pushed to the repository, ensuring that all new code is checked against our linting rules before it is merged.
 
----
 
 ## Key Terminology for Understanding GitHub Actions:
 
@@ -19,7 +17,6 @@ In this example, the linter is triggered whenever code is pushed to the reposito
 - **Steps**: Individual commands or tasks within a job.
 - **Actions**: Predefined reusable components used in steps to perform tasks.
 
----
 
 ## Setting Up Your First GitHub Action
 
@@ -58,7 +55,6 @@ jobs:
 
 With this setup, every push to your repository automatically triggers a linter check, ensuring code quality and conformity to standards.
 
----
 
 ### 2. Push Some Code and Check the Results
 
@@ -66,7 +62,6 @@ For the purpose of this demo, we intentionally added errors to a Python file to 
 
 ![Super-Linter Status](https://github.com/user-attachments/assets/cfe784e2-78db-49a1-ac34-3959c4ff9c21)
 
----
 
 ### 3. Review the Logs and Fix Your Code
 
@@ -74,7 +69,6 @@ In case of failure, examine the detailed logs to identify the issues, fix your c
 
 ![Super-Linter Logs](https://github.com/user-attachments/assets/834aabfb-4cf2-4cb4-83e0-c145d0d82d37)
 
----
 
 ### 4. Explore the GitHub Marketplace
 
