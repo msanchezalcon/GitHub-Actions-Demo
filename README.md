@@ -1,4 +1,4 @@
-
+___
 # GitHub Actions Demo: Running **Super-Linter** from the Marketplace
 
 Welcome to this demo where we showcase how to automate code quality checks using **Super-Linter**, a powerful GitHub Action that analyzes source code and reports issues as console output and status checks.
