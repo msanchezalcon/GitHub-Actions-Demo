@@ -1,4 +1,5 @@
-# GitHub Actions Demo: Running **Super-Linter** from the Marketplace
+# GitHub Actions Demo
+## Running **Super-Linter** from the Marketplace
 
 Welcome to this demo where we showcase how to automate code quality checks using **Super-Linter**, a powerful GitHub Action that analyzes source code and reports issues as console output and status checks.
 
@@ -9,7 +10,7 @@ Welcome to this demo where we showcase how to automate code quality checks using
 In this example, the linter is triggered whenever code is pushed to the repository, ensuring that all new code is checked against our linting rules before it is merged.
 
 
-## Key Terminology for Understanding GitHub Actions:
+## Key Terminology for Understanding GitHub Actions
 
 - **Events**: Trigger the workflow (e.g., code push, pull request).
 - **Jobs**: Independent tasks that run in the workflow, either sequentially or in parallel.
